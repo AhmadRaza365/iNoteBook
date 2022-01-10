@@ -1,0 +1,56 @@
+#header{
+    background-color: coral;
+    display: grid;
+    grid-template-columns: 30% 25% ;
+}
+
+.logo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.headerMenu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.headerMenu li{
+    margin-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    font-size: 30px;   
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
+.nav-link{
+    text-align: center;
+}
+.navbar-brand{
+    
+}
+
+.icon{
+
+    color: rgb(250, 7, 7);
+    cursor: pointer;
+}
+
+.navbar{
+    padding: 0% 5%;
+}
+
+.navbar-collapse{
+    display: grid;
+    grid-template-columns: 60%, 40%; ;
+    justify-content: space-evenly;
+}
+
+.HeaderButtons{
+    justify-content: end;
+}
